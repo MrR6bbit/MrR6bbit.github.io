@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+        .section {
+            min-height: 100vh;
+            padding: 50px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #home { background: #222; }
+        #education { background: #333; }
+        #experience { background: #444; }
+        #contact { background: #555; }
+        
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .menu ul {
+            display: flex;
+            list-style: none;
+        }
+        .menu ul li {
+            margin: 0 15px;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Azwer Ansar</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="home" class="section">
+            <div class="content">
+                <h1>Hello there</h1>
+                <p class="par">
+                    I'm a recent graduate from Northeastern Illinois University, 
+                    with a Bachelor's Degree in Computer Science. I have prominent academic and 
+                    non-academic achievements. This was a fun demo I built using HTML and CSS to 
+                    showcase my knowledge.
+                </p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/azwer-ansar-41b706269/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="education" class="section">
+            <h1>Education</h1>
+            <p><span style="display: block; text-align: center;">
+                    Bachelor’s of Science in Computer Science. 
+                    <br>Northeastern Illinois University(Chicago, IL). <br>
+            
+                </span></p>
+        </div>
+
+        <div id="experience" class="section">
+            <h1>Experience</h1>
+            <p>
+                -Data Analyst Intern | Uptown Chamber of Commerce - Chicago, IL.  September 2024-December 2024.
+                <br>-Lead data Analyst | Doctor’s General Lab - Chicago, IL. December 2022-November 2023.
+                <br>-Data Analyst | O’Hare Clinical Labs - Chicago, IL. September 2021-November 2022.
+
+        
+            </p>
+        </div>
+
+        <div id="contact" class="section">
+            <h1>Contact</h1>
+            <p><span style="display: block; text-align: center;">
+                Please feel free to contact me.
+            </span> 
+            <br> EmailL: azwerahmedansar@gmail.com 
+            <br>Phone: +1 (872) 888 5308 
+        </p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
